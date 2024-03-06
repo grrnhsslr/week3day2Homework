@@ -60,7 +60,7 @@ print(sales_employee.salary)
 dev_employee = Development("dave", "joe", "Smith", 100000)
 
 # Write some code (call code method)
-dev_employee.code()
+print(dev_employee.code())
 # Give the dev employee a raise
 dev_employee.salary_increase()
 print(dev_employee.salary)
